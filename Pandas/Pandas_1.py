@@ -17,4 +17,4 @@ my_serie = pd.Series(data=sample_dict)
 print(my_serie)
 
 # .keys() gives indexes of the Pandas Serie
-print(my_serie.keys()
+print(my_serie.keys())
