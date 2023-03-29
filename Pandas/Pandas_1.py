@@ -24,5 +24,5 @@ print(my_serie)
 # .keys() gives indexes of the Pandas Serie
 print(my_serie.keys())
 
-df = pd.read_csv("tips.csv")
+df = pd.read_csv(r"Pandas\tips.csv")
 print(df)
