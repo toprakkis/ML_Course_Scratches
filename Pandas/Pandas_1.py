@@ -1,6 +1,11 @@
 # First Pandas course file
 import pandas as pd
 import numpy as np
+
+# Just to get same random values
+np.random.seed(42)
+
+
 # With below line you can see pandas version
 version = (pd.__version__)
 my_data = [10, 20, 30]
