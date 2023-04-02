@@ -25,4 +25,10 @@ print(my_serie)
 print(my_serie.keys())
 
 df = pd.read_csv(r"Pandas\tips.csv")
-print(df)
+
+df = pd.DataFrame(df)
+# df.columns and df.index for column and index
+# df.info() gives necessary info on dataframe
+print(df.info())
+# df.describe() gives statistical info
+print(df.describe())
